@@ -117,4 +117,40 @@
   </li>
   
   <li><strong>Stop</strong> the program.</li>
+</ol><br>
+<h3>3) Setting a Bit using Bitwise OR in C++</h3>
+
+<h3>Steps</h3>
+<ol>
+  <li><strong>Start</strong> the program.</li>
+  
+  <li><strong>Declare and initialize</strong> the required variables:
+    <ul>
+      <li><code>i = 22</code> – The initial number whose bit will be changed.</li>
+      <li><code>a = 1</code> – A helper value used for bit manipulation.</li>
+      <li><code>pos_to_reset</code> – To store the bit position entered by the user.</li>
+      <li><code>set</code> – To store the updated value after changing the bit.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Display message</strong> to the user: <em>"Type Position to reset:"</em></li>
+  
+  <li><strong>Take input</strong> from the user and store it in <code>pos_to_reset</code>.</li>
+  
+  <li><strong>Perform the Bitwise Operation</strong>:
+    <ul>
+      <li>Shift the helper bit to the desired position: <code>a = a &lt;&lt; pos_to_reset</code></li>
+      <li>Set (turn ON) that bit in <code>i</code> using Bitwise OR: <code>set = i | a</code></li>
+      <li>This operation ensures the specific bit at the given position is changed to 1, 
+          while other bits remain unchanged.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Display the result</strong>:
+    <ul>
+      <li>Print: <em>"Value of a after changing position: "</em> followed by the updated value stored in <code>set</code>.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Stop</strong> the program.</li>
 </ol>
