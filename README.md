@@ -1,4 +1,4 @@
-<h1>Experiment 4:</h1>
+<h1>Experiment 4: Bitwise Operators in C++</h1>
 <h3>Aim: To study and implememt C++ Bitwise Operators.</h3>
 <h3>Software used: Visual Studio Code</h3>
 <h3>Theory: </h3><h4>Bitwise operator in C++ is used to make changes or perform operations on bits. They work on bit level i.e. 0's and 1's. These operations are faster than arithmetic operations and are mostly used in low level programming.</h4>
@@ -154,3 +154,11 @@
   
   <li><strong>Stop</strong> the program.</li>
 </ol>
+<h2>Conclusion</h2>
+<p>
+This experiment successfully demonstrates how to <strong>set (turn ON) a specific bit</strong> in an integer using 
+<strong>Bitwise OR ( | )</strong> and <strong>Left Shift ( &lt;&lt; )</strong> operators in C++.  
+The left shift moves the bit (1) to the desired position, and the bitwise OR ensures that the corresponding bit in 
+the original number is changed to 1, while all other bits remain unchanged.  
+This technique is widely used in low-level programming, hardware control, and memory manipulation.
+</p>
