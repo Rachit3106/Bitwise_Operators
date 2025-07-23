@@ -54,3 +54,33 @@
 
 <h2>Algorithm : </h2>
 <h3>1) Basic Operation:</h3>
+<ol>
+  <li><strong>Start</strong> the program.</li>
+  
+  <li><strong>Declare and initialize</strong> two integer variables:
+    <ul>
+      <li><code>a = 10</code></li>
+      <li><code>b = 20</code></li>
+    </ul>
+  </li>
+  
+  <li><strong>Perform Bitwise Operations</strong>:
+    <ul>
+      <li><strong>Bitwise AND (&amp;):</strong> <code>bit_add = a &amp; b</code> – Performs AND operation on each bit.</li>
+      <li><strong>Bitwise OR (|):</strong> <code>bit_sub = a | b</code> – Performs OR operation on each bit.</li>
+      <li><strong>Bitwise Complement (~):</strong> 
+        <ul>
+          <li><code>bit_com_a = ~a</code> – Inverts all bits of <code>a</code>.</li>
+          <li><code>bit_com_b = ~b</code> – Inverts all bits of <code>b</code>.</li>
+        </ul>
+      </li>
+      <li><strong>Bitwise XOR (^):</strong> <code>bit_xor = a ^ b</code> – Performs XOR operation on each bit.</li>
+      <li><strong>Left Shift (&lt;&lt;):</strong> <code>left_shift_a = a &lt;&lt; 2</code> – Shifts bits of <code>a</code> two positions to the left.</li>
+      <li><strong>Right Shift (&gt;&gt;):</strong> <code>right_shift_a = a &gt;&gt; 2</code> – Shifts bits of <code>a</code> two positions to the right.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Display</strong> all results using <code>cout</code>.</li>
+  
+  <li><strong>Stop</strong> the program.</li>
+</ol>
