@@ -83,4 +83,38 @@
   <li><strong>Display</strong> all results using <code>cout</code>.</li>
   
   <li><strong>Stop</strong> the program.</li>
+</ol><br>
+<h3>2) Resetting a Bit using Bitwise XOR in C++</h3>
+
+<h3>Steps</h3>
+<ol>
+  <li><strong>Start</strong> the program.</li>
+  
+  <li><strong>Declare and initialize</strong> the required variables:
+    <ul>
+      <li><code>a = 22</code> – The initial number whose bit will be changed.</li>
+      <li><code>reset = 1</code> – A helper value used for bit manipulation.</li>
+      <li><code>pos_for_reset</code> – To store the bit position entered by the user.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Display message</strong> to the user: <em>"Type pos for reset:"</em></li>
+  
+  <li><strong>Take input</strong> from the user and store it in <code>pos_for_reset</code>.</li>
+  
+  <li><strong>Perform the Bitwise Operation</strong>:
+    <ul>
+      <li>Use <code>a = a ^ (reset &lt;&lt; pos_for_reset)</code></li>
+      <li>This shifts the <code>reset</code> (1) to the given bit position and then toggles (changes) that bit in <code>a</code> using XOR.</li>
+      <li>If the bit was 1, it becomes 0 (reset); if it was 0, it becomes 1.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Display the result</strong>:
+    <ul>
+      <li>Print: <em>"Value of a after changing position: "</em> followed by the updated value of <code>a</code>.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Stop</strong> the program.</li>
 </ol>
